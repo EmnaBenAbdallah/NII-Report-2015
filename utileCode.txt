@@ -1,0 +1,23 @@
+http://en.wikibooks.org/wiki/LaTeX/Mathematics
+
+$\geq$ inferieur
+$\leq$ superieur
+
+$\neg$ negation ASP
+
+$\times$ *
+
+\begin{tabbing}
+ $Socrate ~etait ~ athénien.$
+\end{tabbing}
+
+\begin{equation} 
+L_{0} ~ \leftarrow ~ L_{1},...,L_{m},~ \textbf{not} ~ L_{m+1},..., ~ \textbf{not} ~ L_{n}.
+ \label{eq3ASP}
+%\tag{\eqref{eq1ASP}}
+\end{equation}
+
+\begin{lstlisting}
+XXXXXXXXXXXXXX. %label{actions2}
+\end{lstlisting}
+....\ref{actions2}
