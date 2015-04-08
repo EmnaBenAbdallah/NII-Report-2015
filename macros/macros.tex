@@ -48,6 +48,12 @@
 \newcommand{\PHconcat}{::}
 %\newcommand{\PHneutralise}{\rtimes}
 
+% Actions plurielles
+\newcommand{\PHhitmultsymbol}{\rightarrowtail}
+\newcommand{\PHhitmult}[2]{\mbox{$#1 \PHhitmultsymbol #2$}}
+\newcommand{\PHfrappemult}{\PHhitmult}
+\newcommand{\PHfrappemults}[2]{\PHhitmult{\{#1\}}{\{#2\}}}
+
 \def\PHget#1#2{{#1[#2]}}
 %\newcommand{\PHchange}[2]{#1\langle #2 \rangle}
 %\newcommand{\PHchange}[2]{(#1 \Lleftarrow #2)}
@@ -76,3 +82,5 @@
 \def\play{\cdot}
 
 \def\Pint{\textsc{PINT}}
+
+
